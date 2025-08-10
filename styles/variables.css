@@ -1,6 +1,11 @@
 :root {
+  /* Декоративные элементы */
+
   --decor-element: flex;
   --bg-image: url('../images/cover-image-dark.png');
+
+  /* Цвета */
+
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --title-color: #db00ff;
@@ -8,4 +13,16 @@
   --accent-text-color: #ff0070;
   --accent-contrast-color: #000028;
   --hover-color: rgba(255, 0, 112, 0.4);
+
+  /* Размеры */
+
+  --main-padding: 40px 0 34px;
+  --side-padding: 0 10px;
+  --footer-padding: 10px;
+  --menu-margin: 75px;
+  --margin-decor-borders: 10px;
+  --description-inline-size: 355px;
+  --content-gap: 50px;
+  --article-gap: 5px;
+  --card-gap: 5px;
 }
