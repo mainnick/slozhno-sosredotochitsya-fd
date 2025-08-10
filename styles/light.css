@@ -1,11 +1,11 @@
 :root.theme-light {
   --decor-element: none;
   --bg-image: url('../images/cover-image-light.png');
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
-  --title-color: #FFC2E6;
-  --title-shadow-color: #FF8DCB; 
-  --accent-color: #FF8DCB;
+  --title-color: #ffc2e6;
+  --title-shadow-color: #ff8dcb;
+  --accent-color: #ff8dcb;
   --accent-text-color: #353430;
   --accent-contrast-color: #353430;
   --hover-color: rgba(50, 49, 45, 0.4);
@@ -15,11 +15,11 @@
   :root {
     --decor-element: none;
     --bg-image: url('../images/cover-image-light.png');
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --text-color: #353430;
-    --title-color: #FFC2E6;
-    --title-shadow-color: #FF8DCB; 
-    --accent-color: #FF8DCB;
+    --title-color: #ffc2e6;
+    --title-shadow-color: #ff8dcb;
+    --accent-color: #ff8dcb;
     --accent-text-color: #353430;
     --accent-contrast-color: #353430;
     --hover-color: rgba(50, 49, 45, 0.4);
