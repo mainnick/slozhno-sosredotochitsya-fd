@@ -1,12 +1,25 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --decor-element: flex;
+  --bg-image: url('../images/cover-image-dark.png');
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --accent-text-color: #ff0070;
+  --accent-contrast-color: #000028;
+  --hover-color: rgba(255, 0, 112, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --decor-element: flex;
+  --bg-image: url('../images/cover-image-dark.png');
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --accent-text-color: #ff0070;
+  --accent-contrast-color: #000028;
+  --hover-color: rgba(255, 0, 112, 0.4);
+  }
 }
