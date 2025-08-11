@@ -20,9 +20,28 @@
   --side-padding: 0 10px;
   --footer-padding: 10px;
   --menu-margin: 75px;
-  --margin-decor-borders: 10px;
+  --decor-borders: 10px;
   --description-inline-size: 355px;
   --content-gap: 50px;
   --article-gap: 5px;
   --card-gap: 5px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --menu-margin: 192px;
+    --content-gap: 80px;
+    --article-gap: 10px;
+    --card-gap: 20.8px;
+    --decor-borders: 20px;
+    --main-padding: 60px 0;
+    --side-padding: 0 20px;
+    --footer-padding: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --menu-margin: 20px;
+  }
 }
