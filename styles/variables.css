@@ -16,7 +16,7 @@
 
   /* Размеры */
 
-  --main-padding: 40px 0 34px;
+  --main-padding: 40px 0;
   --side-padding: 0 10px;
   --footer-padding: 10px;
   --menu-margin: 75px;
@@ -24,7 +24,7 @@
   --description-inline-size: 355px;
   --content-gap: 50px;
   --article-gap: 5px;
-  --card-gap: 5px;
+  --card-gap: 10px;
 }
 
 @media (width >= 768px) {
